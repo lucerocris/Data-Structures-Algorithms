@@ -6,7 +6,7 @@ int fib(int n)
     else return fib(n - 2) + fib(n - 1);
 
 } 
-//this recursion is excesive recursion
+//this recursion is excessive recursion
 //this is a better way:
 int F[100];
 
